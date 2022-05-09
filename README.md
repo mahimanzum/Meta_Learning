@@ -3,6 +3,9 @@
 
 ### Or you can also run the "NonEuclidean_Meta.py" file line by line on a colab notebook noneuclidean_meta.py
 ### All the experiments are run in colab notebook
+For experiments with other manifolds  change these in omniglot_non_euclidean.py
+Replace all "mnn.Stiefel" with "mnn.Hyperbolic" For the corresponding training
+Replace all "moptim.rAdagrad" with "moptim.rSGD" For the corresponding training
 
 # LearningToCompare_FSL
 PyTorch code for CVPR 2018 paper: [Learning to Compare: Relation Network for Few-Shot Learning](https://arxiv.org/abs/1711.06025) (Few-Shot Learning part)
